@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    opacity: 0.99;
+}
+
+body{
+    background-color: rgb(7, 2, 20);
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    font-size: large;
+    margin: 20px -30px;
+    margin-left: 80px;
+    opacity: 1;
+}
+input{
+    font-weight: bold;
+    font-size: medium;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 0 100px !important;
+}
+
+.navbar, .menu{
+    display: flex;
+    column-gap: 30px;
+}
+
+.navbar, .menu a{
+    color: white;
+    text-decoration: none !important;
+    padding: 10px;  
+}
+
+.navbar, .menu .home{
+    color: cyan;
+}
+
+.menu a:hover{
+    border: 1px solid cyan;
+}
+.hero-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+    margin-top: 0px;
+}
+.hero-box .img-right{
+    width: 393px;
+    height: 570px;
+    display: flex;
+}
+.hero-box .img-right img{
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all ease 0.5s;
+    box-shadow: rgba(0, 269, 219, 0.25) 0px -21px 139px, rgba(0, 255, 255, 0.12) 0px -12px 30px, rgba(0, 255, 200, 0.12) 0px 4px 6px, rgba(8, 231, 213, 0.17) 0px 31px 15px, rgba(2, 247, 185, -0.91) 0px -3px 18px;
+}
+.hero-box .img-right img:hover{
+    cursor: pointer;
+    box-shadow: rgba(0, 102, 255, 0.12) 0px -21px 139px, rgba(0, 255, 255, 0.12) 0px -12px 30px, rgba(0, 102, 255, 0.12) 0px 4px 6px, rgba(8, 231, 213, 0.17) 0px 31px 15px, rgba(2, 247, 185, -0.91) 0px -3px 18px;
+}
